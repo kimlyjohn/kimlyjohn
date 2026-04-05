@@ -17,10 +17,10 @@ jobs:
       pull-requests: read
       packages: read
     steps:
-      - name: 📊 General Metrics & Languages
+      - name: 📊 GitHub Metrics
         uses: lowlighter/metrics@master
         with:
-          filename: github-metrics-general.svg
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           # Lines of code plugin
@@ -37,13 +37,6 @@ jobs:
           # Notable contributions
           plugin_notable: yes
           plugin_notable_from: all
-          
-      - name: 🎨 Visuals (3D Calendar)
-        uses: lowlighter/metrics@master
-        with:
-          filename: github-metrics-visuals.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
           # Isometric calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year

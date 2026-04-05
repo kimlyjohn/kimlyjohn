@@ -30,12 +30,8 @@
 ---
 
 ## GitHub Activity & Stats
-An overview of my top languages, coding habits, and recent contributions.
+An overview of my top languages, lines of code, and contributions.
 
 <p align="center">
-  <img src="github-metrics-general.svg" alt="General Metrics" />
-</p>
-
-<p align="center">
-  <img src="github-metrics-visuals.svg" alt="Visuals and Isometric Calendar" />
+  <img src="github-metrics.svg" alt="GitHub Metrics" />
 </p>
