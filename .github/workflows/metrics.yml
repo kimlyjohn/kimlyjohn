@@ -40,8 +40,8 @@ jobs:
           # Topics plugin (starred with icons)
           plugin_topics: yes
           plugin_topics_limit: 15
-          plugin_topics_mode: starred
+          plugin_topics_mode: icons
           plugin_topics_sort: stars
           # Isometric calendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: year
+          plugin_isocalendar_duration: full-year
