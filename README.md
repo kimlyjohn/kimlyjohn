@@ -11,7 +11,7 @@
 </p>
 
 ## About Me
-- I'm a 3rd-year Software Engineering student, currently focusing on building full-stack web applications and exploring AI/ML concepts.
+- I'm a 3rd-year Software Engineering student, currently focusing on full-stack web development, mobile applications, and exploring AI/ML concepts.
 - Actively developing my skills through academic coursework, algorithms, and personal projects.
 - Preparing for upcoming software engineering internships and part-time roles.
 - Always open to collaborating on open-source projects or hackathons.
