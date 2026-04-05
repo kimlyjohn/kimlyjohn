@@ -13,6 +13,9 @@ jobs:
       name: production
     permissions:
       contents: write
+      actions: read
+      pull-requests: read
+      packages: read
     steps:
       - name: 📊 General Metrics & Languages
         uses: lowlighter/metrics@master
