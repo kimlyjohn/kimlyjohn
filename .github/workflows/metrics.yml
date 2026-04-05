@@ -14,6 +14,51 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: 📊 General Metrics & Languages
+        uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics-general.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          # Lines of code plugin
+          plugin_lines: yes
+          # Languages plugin
+          plugin_languages: yes
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          # Achievements plugin
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          # Notable contributions
+          plugin_notable: yes
+          plugin_notable_from: organization
+          
+      - name: 🎨 Visuals (3D Calendar & Habits)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-visuals.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          # Isometric calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          # Coding habits
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          # Recent activity
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_visibility: all

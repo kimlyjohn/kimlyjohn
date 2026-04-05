@@ -1,16 +1,41 @@
-## Hi there 👋
+<h1 align="center">Hi, I'm Kimly John 👋</h1>
+<h3 align="center">Software Engineering Student | Web Development & AI</h3>
 
-<!--
-**kimlyjohn/kimlyjohn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://www.linkedin.com/in/kimly-john-vergara-97b275310/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:kimlyjohn.vergara26@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-Here are some ideas to get you started:
+## About Me
+- I'm a 3rd-year Software Engineering student, currently focusing on building full-stack web applications and exploring AI/ML concepts.
+- Actively developing my skills through academic coursework, algorithms, and personal projects.
+- Preparing for upcoming software engineering internships and part-time roles.
+- Always open to collaborating on open-source projects or hackathons.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL (MySQL/Postgres)" />
+  <img src="https://img.shields.io/badge/Git_&_GitHub-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+---
+
+## GitHub Activity & Stats
+An overview of my top languages, coding habits, and recent contributions.
+
+<p align="center">
+  <img src="github-metrics-general.svg" alt="General Metrics" />
+</p>
+
+<p align="center">
+  <img src="github-metrics-visuals.svg" alt="Visuals and Isometric Calendar" />
+</p>
