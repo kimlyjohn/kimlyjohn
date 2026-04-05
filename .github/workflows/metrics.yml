@@ -15,7 +15,7 @@ jobs:
       contents: write
     steps:
       - name: 📊 General Metrics & Languages
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: github-metrics-general.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -41,7 +41,7 @@ jobs:
           plugin_notable_from: all
           
       - name: 🎨 Visuals (3D Calendar & Habits)
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: github-metrics-visuals.svg
           token: ${{ secrets.METRICS_TOKEN }}
