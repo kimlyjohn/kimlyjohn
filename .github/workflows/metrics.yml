@@ -37,6 +37,11 @@ jobs:
           # Notable contributions
           plugin_notable: yes
           plugin_notable_from: all
+          # Topics plugin (starred with icons)
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: starred
+          plugin_topics_sort: stars
           # Isometric calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: year
